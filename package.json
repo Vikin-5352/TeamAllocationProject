@@ -2,7 +2,7 @@
   "name": "1st-project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://vikin-5352.github.io/TeamAllocationProject/",
+  "homepage": "https://Vikin-5352.github.io/TeamAllocationProject",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
