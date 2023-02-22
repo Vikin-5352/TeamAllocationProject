@@ -147,7 +147,7 @@ function App() {
       />
       <Routes>
         <Route
-          path="/TeamAllocationProject"
+          exact  path="/TeamAllocationProject"
           element={
             <Employees
               handleEmployeeCardClick={handleEmployeeCardClick}
@@ -158,7 +158,7 @@ function App() {
           }
         />
         <Route 
-        path="/TeamAllocationProject/GroupTeamMembers" element={<GroupedTeamMembers 
+        exact path="/TeamAllocationProject/GroupTeamMembers" element={<GroupedTeamMembers 
           employees={employees}
           selectedTeam={selectedTeam}
           setTeam={setTeam}
