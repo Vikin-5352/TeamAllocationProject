@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.4dcc1ee1.css",
-    "main.js": "/static/js/main.1e832840.js",
-    "static/js/787.9a604c36.chunk.js": "/static/js/787.9a604c36.chunk.js",
-    "static/media/maleProfile.jpg": "/static/media/maleProfile.657c4196488ead649e93.jpg",
-    "static/media/femaleProfile.jpg": "/static/media/femaleProfile.48d77dc2519df08d5cc5.jpg",
-    "index.html": "/index.html",
-    "main.4dcc1ee1.css.map": "/static/css/main.4dcc1ee1.css.map",
-    "main.1e832840.js.map": "/static/js/main.1e832840.js.map",
-    "787.9a604c36.chunk.js.map": "/static/js/787.9a604c36.chunk.js.map"
+    "main.css": "/TeamAllocationProject/static/css/main.4dcc1ee1.css",
+    "main.js": "/TeamAllocationProject/static/js/main.a994d5aa.js",
+    "static/js/787.9a604c36.chunk.js": "/TeamAllocationProject/static/js/787.9a604c36.chunk.js",
+    "static/media/maleProfile.jpg": "/TeamAllocationProject/static/media/maleProfile.657c4196488ead649e93.jpg",
+    "static/media/femaleProfile.jpg": "/TeamAllocationProject/static/media/femaleProfile.48d77dc2519df08d5cc5.jpg",
+    "index.html": "/TeamAllocationProject/index.html",
+    "main.4dcc1ee1.css.map": "/TeamAllocationProject/static/css/main.4dcc1ee1.css.map",
+    "main.a994d5aa.js.map": "/TeamAllocationProject/static/js/main.a994d5aa.js.map",
+    "787.9a604c36.chunk.js.map": "/TeamAllocationProject/static/js/787.9a604c36.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4dcc1ee1.css",
-    "static/js/main.1e832840.js"
+    "static/js/main.a994d5aa.js"
   ]
 }
