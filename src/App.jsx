@@ -6,7 +6,7 @@ import Footer from "./Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Employees from "./Employees";
 import { useState } from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as HashRouter , Route, Routes } from "react-router-dom";
 //import { computeHeadingLevel } from '@testing-library/react';
 import GroupedTeamMembers from "./GroupTeamMembers";
 import Nav from "./Nav";
@@ -137,7 +137,7 @@ function App() {
   }
 
   return (
-    <Router>
+    <HashRouter >
       <Nav />
       <Header
         selectedTeam={selectedTeam}
@@ -147,7 +147,7 @@ function App() {
       />
       <Routes>
         <Route
-          exact  path="/TeamAllocation"
+          exact path="/"
           element={
             <Employees
               handleEmployeeCardClick={handleEmployeeCardClick}
@@ -158,17 +158,17 @@ function App() {
           }
         />
         <Route 
-        exact path="/TeamAllocation/GroupTeamMembers" element={<GroupedTeamMembers 
+        path="/GroupTeamMembers" element={<GroupedTeamMembers 
           employees={employees}
           selectedTeam={selectedTeam}
           setTeam={setTeam}
         />} />
         <Route 
-        exact path="*" 
+        path="*" 
         element={<NotFound />} />
       </Routes>
       <Footer />
-    </Router>
+    </HashRouter>
   );
 }
 
